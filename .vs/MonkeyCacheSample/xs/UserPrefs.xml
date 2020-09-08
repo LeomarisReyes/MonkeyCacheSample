@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{65E497DB-7AD0-46A4-8DD5-388808E361A4}|Default">
+  <MonoDevelop.Ide.ItemProperties.MonkeyCacheSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.19246DB7-ED17-4769-94AD-22BF5FA8FA24" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonkeyCacheSample/ViewModels/MyPageViewModel.cs">
+    <Files>
+      <File FileName="MonkeyCacheSample/Views/PopUpWarning.xaml" Line="9" Column="88" />
+      <File FileName="MonkeyCacheSample/ViewModels/MyPageViewModel.cs" Line="44" Column="48" />
+      <File FileName="MonkeyCacheSample/Views/MyPage.xaml" />
+      <File FileName="MonkeyCacheSample/Views/PopUpWarning.xaml.cs" />
+      <File FileName="MonkeyCacheSample/Services/IFuelsApi.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MonkeyCacheSample" expanded="True" selected="True">
+            <Node name="MonkeyCacheSample" expanded="True">
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="PopUpWarning.xaml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MonkeyCacheSample.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.1115fba155480902" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/leomarisreyes/Projects/MonkeyCacheSample/MonkeyCacheSample/ViewModels/MyPageViewModel.cs" relfile="MonkeyCacheSample/ViewModels/MyPageViewModel.cs" line="31" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

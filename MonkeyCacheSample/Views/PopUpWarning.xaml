@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<popup:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:popup="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 x:Class="MonkeyCacheSample.Views.PopUpWarning"> 
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Frame WidthRequest="350" HasShadow="True" HeightRequest="160" Margin="40,10,40,0">
+          <StackLayout> 
+              <Image Source = "ConnectionError" WidthRequest="70" HeightRequest="80" />
+                <Label Text ="No connection available. You will be working with offline data." HorizontalTextAlignment="Center" TextColor="Red"/>  
+          </StackLayout>
+        </Frame>
+    </StackLayout>
+</popup:PopupPage>

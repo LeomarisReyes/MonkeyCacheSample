@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MonkeyCacheSample.Views.MyPage">
+    <ContentPage.Content>
+        <StackLayout Background="#FFEAF6"> 
+               <CollectionView Margin="20,40,20,0"   
+                                ItemsSource="{Binding fuel}" 
+                                VerticalOptions="FillAndExpand">
+                     <CollectionView.ItemTemplate>
+                           <DataTemplate>
+                               <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="Auto,*" Padding="15">
+                                   <Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Source="Fuel" Margin="0,0,20,0"/>
+                                   <Label Grid.Row="0" Grid.Column="1" Text="{Binding COMBUSTIBLE}"  TextColor="Black" FontAttributes="Bold" FontSize="16" />
+                                   <Label Grid.Row="1" Grid.Column="1" Text="{Binding SEMANA_LABEL}"  TextColor="Black" FontAttributes="Bold" FontSize="16" />
+                                   <Label Grid.Row="2" Grid.Column="1" Text="{Binding PRECIO}" FontSize="15"/>
+                                   <Label Grid.Row="3" Grid.Column="1" Text="{Binding FECHA_SEMANA}" FontSize="15"/>
+                               </Grid> 
+                          </DataTemplate>
+                     </CollectionView.ItemTemplate>
+               </CollectionView>
+          </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
